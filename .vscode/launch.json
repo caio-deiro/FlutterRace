@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "meu_app",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--dart-define","SUPABASEURL=https://uhedoieskqzsydvoeeoh.supabase.co",
+                "--dart-define","SUPABASEKEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYW5vbiIsImlhdCI6MTYzOTc1MTQzMywiZXhwIjoxOTU1MzI3NDMzfQ.aj2HootuIYMuUbhjDcFDoYLf-oizFzUxFn2IFKZRTnk",
+            ]
+        },
+        {
+            "name": "meu_app (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        }
+    ]
+}
